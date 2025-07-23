@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="bg-[#FFF]-slate-50">
+    <footer className="bg-slate-50">
       <MaxWidthWrapper className="py-14 pb-20 flex flex-col items-center justify-center md:items-start md:justify-between md:flex-row">
         <div className="max-w-[16rem] flex flex-col space-y-2 items-center justify-center md:items-start md:justify-normal">
           <Link href="/" className="flex items-center z-40 font-bold text-lg">

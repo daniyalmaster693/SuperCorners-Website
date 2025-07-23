@@ -48,11 +48,11 @@ function FaqSection() {
   return (
     <section className="bg-white/80 py-20 mt-10 mb-15" id="faq">
       <div className="max-w-sm sm:max-w-2xl mx-auto">
-        <h2 className="tracking-tight font-bold text-center text-3xl lg:text-5xl lg:leading-[3.5rem]">
+        <h2 className="mb-10 tracking-tight font-bold text-center text-3xl lg:text-5xl lg:leading-[3.5rem]">
           Frequently Asked Questions
         </h2>
 
-        <div className="space-y-4 mt-20">
+        <div className="space-y-4 mt-10">
           {faqs.map((faq, index) => {
             return (
               <div
@@ -83,7 +83,7 @@ function FaqSection() {
                       </div>
                     </AccordionTrigger>
                     <AccordionContent className="origin-left">
-                      <p className="pl-6 pr-2 mt-5 leading-relaxed text-zinc-500">
+                      <p className="pl-6 pr-2 leading-relaxed text-zinc-500">
                         {faq.answer}
                       </p>
                     </AccordionContent>
