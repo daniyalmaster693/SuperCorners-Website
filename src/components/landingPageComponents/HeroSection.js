@@ -1,3 +1,5 @@
+"use client";
+
 import MaxWidthWrapper from "../MaxWidthWrapper";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -20,7 +22,7 @@ function HeroSection() {
                 muted
                 loop
                 playsInline
-                className="mt-7 mb-8 rounded-[2.5rem] max-w-full w-[480px] lg:w-[720px] mx-auto"
+                className="mt-10 mb-3 rounded-[2.5rem] max-w-full w-[480px] lg:w-[720px] mx-auto"
               />
 
               <div className="flex flex-col items-center text-center">
@@ -28,14 +30,44 @@ function HeroSection() {
                   href="#"
                   className={cn(
                     buttonVariants({ size: "lg" }),
-                    "flex items-center justify-center mt-8 group rounded-full px-6 py-3"
+                    "flex items-center justify-center mt-8 group rounded-[8px] px-6 py-1"
                   )}
                 >
-                  <span>Get SuperCorners</span>
+                  <span className="flex items-center gap-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      height="16"
+                    >
+                      <path
+                        fill="#F8FAFD"
+                        d="M12.665 15.358c-.905.844-1.893.711-2.843.311-1.006-.409-1.93-.427-2.991 0-1.33.551-2.03.391-2.825-.31C-.498 10.886.166 4.078 5.28 3.83c1.246.062 2.114.657 2.843.71 1.09-.213 2.133-.826 3.296-.746 1.393.107 2.446.64 3.138 1.6-2.88 1.662-2.197 5.315.443 6.337-.526 1.333-1.21 2.657-2.345 3.635zM8.03 3.778C7.892 1.794 9.563.16 11.483 0c.268 2.293-2.16 4-3.452 3.777"
+                      ></path>
+                    </svg>
+                    Download for Mac
+                  </span>
                 </Link>
-                <p className="text-sm text-gray-600 mt-2 mx-auto">
-                  Requires macOS 13.0 and later
-                </p>
+                <div className="flex">
+                  <p className="text-sm text-gray-600 mt-3 mx-auto">
+                    macOS 13+ |{" "}
+                    <a
+                      href="#"
+                      onClick={() => {
+                        navigator.clipboard.writeText(
+                          `brew tap daniyalmaster693/casks
+brew install --cask supercorners`
+                        );
+                        alert(
+                          "Copied SuperCorners Installation Command to Clipboard!"
+                        );
+                      }}
+                    >
+                      Install via Homebrew
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
