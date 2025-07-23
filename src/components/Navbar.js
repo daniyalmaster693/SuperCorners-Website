@@ -4,9 +4,9 @@ import { Menu } from "lucide-react";
 
 function Navbar() {
   return (
-    <nav className="sticky h-16 inset-x-0 top-0 z-30 w-full border-b border-gray-200 bg-white/75 backdrop-blur-md transition-all">
+    <nav className="sticky h-14 inset-x-0 top-0 z-30 w-full border-b border-gray-200 bg-white/75 backdrop-blur transition-all">
       <MaxWidthWrapper>
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-14 items-center justify-between">
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center gap-2">
               <img
