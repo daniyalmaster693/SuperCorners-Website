@@ -14,10 +14,7 @@ function Navbar() {
                 alt="Reddit logo"
                 className="w-10 h-10"
               />
-              <Link
-                href="/"
-                className="text-lg font-semibold text-black hover:text-gray-600"
-              >
+              <Link href="/" className="text-med font-medium text-black">
                 <span>SuperCorners</span>
               </Link>
             </div>
@@ -25,19 +22,16 @@ function Navbar() {
             <div className="hidden md:flex items-center gap-5 lg:gap-10">
               <Link
                 href="#features"
-                className="text-sm font-normal text-gray-700 hover:text-gray-600"
+                className="text-sm font-normal text-gray-800"
               >
                 Features
               </Link>
-              <Link
-                href="#faq"
-                className="text-sm font-normal text-gray-700 hover:text-gray-600"
-              >
+              <Link href="#faq" className="text-sm font-normal text-gray-800">
                 FAQ
               </Link>
               <Link
                 href="#download"
-                className="text-sm font-normal text-gray-700 hover:text-gray-600"
+                className="text-sm font-normal text-gray-800"
               >
                 Download
               </Link>

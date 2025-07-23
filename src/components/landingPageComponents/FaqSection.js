@@ -61,7 +61,7 @@ function FaqSection() {
               >
                 <Accordion
                   className="flex w-full flex-col"
-                  transition={{ type: "spring", stiffness: 120, damping: 20 }}
+                  transition={{ type: "spring", stiffness: 200, damping: 20 }}
                   variants={{
                     expanded: {
                       opacity: 1,
