@@ -6,9 +6,16 @@ function Footer() {
     <footer className="bg-slate-50">
       <MaxWidthWrapper className="py-14 pb-10 flex flex-col items-center justify-center md:items-start md:justify-between md:flex-row">
         <div className="max-w-[16rem] flex flex-col space-y-1 items-center justify-center md:items-start md:justify-normal">
-          <Link href="/" className="flex items-center z-40 font-bold text-lg">
-            SuperCorners
-          </Link>
+          <div className="flex items-center gap-1 -ml-1">
+            <img
+              src="/logos/icon.png"
+              alt="Reddit logo"
+              className="w-12 h-12"
+            />
+            <Link href="/" className="flex items-center z-40 font-bold text-lg">
+              SuperCorners
+            </Link>
+          </div>
           <p className="text-gray-700 md:text-[0.875rem] font-medium text-center md:text-left whitespace-nowrap">
             © {new Date().getFullYear()} Daniyal Master. All rights reserved.
           </p>

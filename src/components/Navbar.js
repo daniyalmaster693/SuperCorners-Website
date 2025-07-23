@@ -8,12 +8,19 @@ function Navbar() {
       <MaxWidthWrapper>
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center justify-between w-full">
-            <Link
-              href="/"
-              className="text-lg font-semibold text-gray-700 hover:text-gray-600"
-            >
-              <span>SuperCorners</span>
-            </Link>
+            <div className="flex items-center gap-2">
+              <img
+                src="/logos/icon.png"
+                alt="Reddit logo"
+                className="w-10 h-10"
+              />
+              <Link
+                href="/"
+                className="text-lg font-semibold text-black hover:text-gray-600"
+              >
+                <span>SuperCorners</span>
+              </Link>
+            </div>
 
             <div className="hidden md:flex items-center gap-5 lg:gap-10">
               <Link
