@@ -12,7 +12,7 @@ function HeroSection() {
         <div className="flex flex-col gap-10 items-center">
           <div className="col-span-1 px-2 lg:px-0">
             <div className="relative mx-auto text-center lg:text-left flex flex-col items-center">
-              <h1 className="relative w-fit tracking-tighter text-balance font-bold !leading-tight text-gray-900 text-5xl md:text-6xl mb-4">
+              <h1 className="relative w-fit tracking-tighter text-balance font-bold !leading-tight text-gray-900 text-5xl -mt-5 md:text-6xl mb-4">
                 Supercharge your Mac's Corners
               </h1>
 
