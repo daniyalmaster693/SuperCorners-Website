@@ -23,6 +23,11 @@ function TestimonialsSection() {
                       "This is a super useful app. Thank you so much. Definitely looking forward to your future updates. ",
                   },
                   {
+                    user: "u/trey-a-12",
+                    comment:
+                      "Hey, let me just say this – SuperCorners is AWESOME. I've only just started using it, but things are looking great and this may very well become part of my `essential suite`. I've always wanted a solid supercharged version of the macOS Hot Corners, and that's exactly what this is.",
+                  },
+                  {
                     user: "u/Latter_Pen2421",
                     comment:
                       "I've always thought this was a good idea! Thanks so much for making. You will forever have a customer. I hope you keep developing.",
@@ -36,10 +41,6 @@ function TestimonialsSection() {
                     user: "u/_waffles3",
                     comment:
                       "This looks like a really useful app. Thank you dev! ",
-                  },
-                  {
-                    user: "u/lu_chin",
-                    comment: "Super helpful app. Nice job! ",
                   },
                 ].map((t, i) => (
                   <div
