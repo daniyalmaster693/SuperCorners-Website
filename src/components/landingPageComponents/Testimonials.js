@@ -45,7 +45,7 @@ function TestimonialsSection() {
                 ].map((t, i) => (
                   <div
                     key={i}
-                    className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between h-full min-h-64"
+                    className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between h-full min-h-56"
                   >
                     <p className="text-gray-800 mt-3 text-lg font-medium">
                       {t.comment}
