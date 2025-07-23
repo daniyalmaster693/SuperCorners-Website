@@ -12,11 +12,11 @@ function Footer() {
               alt="Reddit logo"
               className="w-12 h-12"
             />
-            <Link href="/" className="flex items-center z-40 font-bold text-lg">
+            <Link href="/" className="text-med font-medium text-black">
               SuperCorners
             </Link>
           </div>
-          <p className="text-gray-700 md:text-[0.875rem] font-medium text-center md:text-left whitespace-nowrap">
+          <p className="text-xs font-normal text-gray-800 whitespace-nowrap">
             © {new Date().getFullYear()} Daniyal Master. All rights reserved.
           </p>
         </div>
@@ -27,23 +27,20 @@ function Footer() {
               <li>
                 <Link
                   href="#features"
-                  className="text-sm font-normal text-gray-700 hover:underline hover:underline-offset-1"
+                  className="text-sm font-normal text-gray-800"
                 >
                   Features
                 </Link>
               </li>
               <li>
-                <Link
-                  href="#faq"
-                  className="text-sm font-normal text-gray-700 hover:underline hover:underline-offset-1"
-                >
+                <Link href="#faq" className="text-sm font-normal text-gray-800">
                   FAQ
                 </Link>
               </li>
-              <li className="hover:underline hover:underline-offset-1">
+              <li className="text-sm font-normal text-gray-800">
                 <Link href="/">Privacy Policy</Link>
               </li>
-              <li className="hover:underline hover:underline-offset-1">
+              <li className="text-sm font-normal text-gray-800">
                 <Link href="/">Terms of Service</Link>
               </li>
             </ul>
