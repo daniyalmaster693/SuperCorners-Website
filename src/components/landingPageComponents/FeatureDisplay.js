@@ -101,22 +101,26 @@ function FeatureDisplay() {
         Choose from 88 different actions, with more being added in every update.
       </p>
 
-      <div className="max-w-sm sm:max-w-4xl lg:max-w-6xl mx-auto flex flex-col gap-20 mt-20">
+      <div className="max-w-sm sm:max-w-4xl xl:max-w-6xl mx-auto flex items-center flex-col gap-20 mt-20">
         {features.map((feature, i) => (
           <div
             key={feature.title}
-            className={`flex items-center gap-24 ${
-              i % 2 === 1 ? "flex-row-reverse" : "flex-row"
-            }`}
+            className={`grid grid-cols-1 xl:grid-cols-2 gap-12 items-center`}
           >
             <img
               src={feature.imgSrc}
               alt={feature.title}
-              className="w-[460px] h-[320px] rounded-[2rem] flex-shrink-0"
+              className={`w-[460px] h-[320px] rounded-[2rem] flex-shrink-0 ${
+                i % 2 === 1 ? "order-1 xl:order-2" : ""
+              }`}
             />
-            <div className="flex-1 max-w-2xl">
+            <div
+              className={`flex-1 max-w-2xl ${
+                i % 2 === 1 ? "order-2 xl:order-1" : ""
+              }`}
+            >
               <h3 className="text-3xl font-semibold mb-3">{feature.title}</h3>
-              <p className="text-gray-700 break-words leading-relaxed text-med">
+              <p className="text-gray-700 break-words whitespace-normal leading-relaxed text-med">
                 {feature.description}
               </p>
             </div>

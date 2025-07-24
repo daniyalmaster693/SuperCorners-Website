@@ -14,7 +14,7 @@ function Navbar() {
                 alt="Reddit logo"
                 className="w-10 h-10"
               />
-              <Link href="/" className="text-med font-medium text-black">
+              <Link href="/" className="text-med font-semibold text-black">
                 <span>SuperCorners</span>
               </Link>
             </div>
@@ -38,8 +38,13 @@ function Navbar() {
             </div>
           </div>
 
-          <div className="md:hidden">
-            <Menu className="h-6 w-6 cursor-pointer" />
+          <div className="md:hidden flex items-center">
+            <Link
+              href="#download"
+              className="text-sm font-normal text-gray-800"
+            >
+              Download
+            </Link>
           </div>
         </div>
       </MaxWidthWrapper>

@@ -3,7 +3,7 @@ import MaxWidthWrapper from "../MaxWidthWrapper";
 function TestimonialsSection() {
   return (
     <section className="bg-slate-50">
-      <MaxWidthWrapper className="pt-10 !px-2 lg:!px-10 lg:pt-24 lg:pb-20">
+      <MaxWidthWrapper className="pt-24 pb-20 px-4">
         <div className="flex flex-col gap-10 items-center">
           <div className="col-span-1 px-2 lg:px-0">
             <div className="relative mx-auto text-center lg:text-left flex flex-col items-center">

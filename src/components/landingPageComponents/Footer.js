@@ -23,7 +23,7 @@ function Footer() {
 
         <div className="flex flex-row gap-10 mt-20 md:mt-0">
           <div className="flex items-center md:items-start px-8 py-4">
-            <ul className="flex flex-row space-x-4 text-gray-600 text-sm text-center md:text-left">
+            <ul className="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 text-gray-600 text-sm text-center md:text-left">
               <li>
                 <Link
                   href="#features"
