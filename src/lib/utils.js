@@ -1,8 +1,8 @@
-import { clsx } from "clsx"
-import { twMerge } from "tailwind-merge"
+import { clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs) {
-  return twMerge(clsx(inputs))
+  return twMerge(clsx(inputs));
 }
 
 export const formatPrice = (price) => {
@@ -15,10 +15,10 @@ export const formatPrice = (price) => {
 };
 
 export function constructMetadata({
-  title = "Your App",
-  description = "Your app desription goes here",
+  title = "SuperCorners",
+  description = "Supercharge your Mac's Corners ",
   image = "/openGraph.png",
-  icons = "/favicon.ico",
+  icons = "/icon.png",
 } = {}) {
   return {
     title,
@@ -27,18 +27,11 @@ export function constructMetadata({
     openGraph: {
       title,
       description,
-      siteName: "SaaS Landing Page",
-      url: "https://saas-landing-page-pied-seven.vercel.app/",
+      siteName: "SuperCorners",
+      url: "https://SuperCorners.vercel.app/",
       type: "website",
-      images: [{ url: image }]
+      images: [{ url: image }],
     },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [image],
-      creator: "@yourhandle",
-    },
-    metadataBase: new URL('https://saas-landing-page-pied-seven.vercel.app/')
+    metadataBase: new URL("https://SuperCorners.vercel.app/"),
   };
 }
