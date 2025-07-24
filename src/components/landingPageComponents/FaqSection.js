@@ -12,36 +12,35 @@ function FaqSection() {
     {
       question: "What is SuperCorners?",
       answer:
-        "SuperCorners lets you assign custom actions to your Mac’s screen corners and edge zones, helping you streamline your workflow.",
+        "SuperCorners supercharges your Mac's Corners by allowing you to assign custom actions for more control.",
     },
     {
       question: "Which macOS versions are supported?",
-      answer: "SuperCorners requires macOS 13.0 (Ventura) or later.",
+      answer: "SuperCorners requires macOS 13+ (Ventura) and later.",
     },
     {
       question: "What actions can I assign to corners?",
       answer:
-        "You can launch apps, open files and folders, run shortcuts or AppleScripts, open websites, and more.",
+        "You can launch apps, open files and folders, run shortcuts or appleScripts, open websites, and more. There are currently 88 different actions that can be assigned with more added in every update.",
     },
     {
       question: "Can I disable certain corners or zones?",
       answer:
-        "Yes, you can enable or disable individual corners and zones in the settings.",
+        "Yes, you can enable or disable individual corners and zones from the settings window.",
     },
     {
       question: "How do I update SuperCorners?",
       answer:
-        "If installed with Homebrew, run: brew upgrade --cask supercorners. Otherwise, use the in-app updater.",
+        "If installed with Homebrew, run: brew upgrade --cask supercorners. Otherwise, the in app updater will take care of things for you.",
     },
     {
       question: "Is my data collected?",
-      answer:
-        "No. SuperCorners does not collect or share any personal data. All settings remain local to your device.",
+      answer: "No. SuperCorners does not collect data.",
     },
     {
       question: "How can I report bugs or suggest features?",
       answer:
-        "Open an issue or discussion on the GitHub repo: github.com/daniyalmaster693/SuperCorners",
+        "Open an issue or discussion on the GitHub repo: https://github.com/daniyalmaster693/SuperCorners",
     },
   ];
 
