@@ -22,7 +22,7 @@ const features = [
   {
     title: "Access System Commands",
     description:
-      "Trigger useful system commands such as Toggle Dark Mode, Keep Awake, or Minimize All Windows with a quick flick to stay focused without digging through menus.",
+      "Trigger useful system commands such as Toggle Dark Mode, Keep Awake, or even create a new file with a quick flick to stay focused without digging through menus.",
     imgSrc: "https://dropoverapp.com/assets/images/tile-instant-actions.jpg",
   },
   {
