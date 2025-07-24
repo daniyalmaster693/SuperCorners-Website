@@ -28,10 +28,10 @@ export function constructMetadata({
       title,
       description,
       siteName: "SuperCorners",
-      url: "https://SuperCorners.vercel.app/",
+      url: "https://supercorners.vercel.app/",
       type: "website",
       images: [{ url: image }],
     },
-    metadataBase: new URL("https://SuperCorners.vercel.app/"),
+    metadataBase: new URL("https://supercorners.vercel.app/"),
   };
 }
