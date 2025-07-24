@@ -1,5 +1,3 @@
-import { Sparkle } from "lucide-react";
-
 const features = [
   {
     title: "Additional Zones",
@@ -8,9 +6,9 @@ const features = [
     imgSrc: "https://dropoverapp.com/assets/images/tile-power-users.jpg",
   },
   {
-    title: "Launch Apps",
+    title: "Launch Apps and Websites",
     description:
-      "Open your favorite apps instantly with a simple flick to a corner or zone. It’s never been faster to get started.",
+      "Open your favorite apps and websites instantly with a simple flick to a corner or zone. It’s never been easier to get your workspace up and running.",
     imgSrc: "https://dropoverapp.com/assets/images/tile-upload.jpg",
   },
   {

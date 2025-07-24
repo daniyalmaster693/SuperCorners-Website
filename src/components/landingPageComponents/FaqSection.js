@@ -24,6 +24,11 @@ function FaqSection() {
         "You can launch apps, open files and folders, run shortcuts or appleScripts, open websites, and more. There are currently 88 different actions that can be assigned with more added in every update.",
     },
     {
+      question: "Can I assign the same action to multiple corners?",
+      answer:
+        "You can assign any action to any corner with no restrictions. This includes actions that require additional input (template actions) that are set on a per corner/zone basis.",
+    },
+    {
       question: "Can I disable certain corners or zones?",
       answer:
         "Yes, you can enable or disable individual corners and zones from the settings window.",
