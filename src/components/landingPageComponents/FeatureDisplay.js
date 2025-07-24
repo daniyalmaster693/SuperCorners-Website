@@ -31,6 +31,66 @@ const features = [
   },
 ];
 
+const moreFeatures = [
+  {
+    title: "Open Files and Folders",
+    description:
+      "Quickly open specified files and folders or recent downloads.",
+  },
+  {
+    title: "Developer Utilities",
+    description:
+      "Access handy developer info such as network speed tests and system info.",
+  },
+  {
+    title: "Menubar Component",
+    description:
+      "Access corner/zone actions or favorited actions from the menubar.",
+  },
+  {
+    title: "Ignore Applications",
+    description:
+      "Choose apps to ignore corner and zone actions while they’re active.",
+  },
+  {
+    title: "Adjust Trigger Sensitivity",
+    description:
+      "Fine tune how close your mouse must be to a corners or zones to trigger an action.",
+  },
+  {
+    title: "Window Management",
+    description:
+      "Access simple window controls to hide windows and other basic window controls.",
+  },
+  {
+    title: "Media Controls",
+    description: "Play/Pause Media, skip tracks or switch to previous tracks.",
+  },
+  {
+    title: "Finder Actions",
+    description:
+      "Access useful and smart finder actions without taking yourself out of your workflow",
+  },
+  {
+    title: "Capture your Screen",
+    description: "Easily access useful screen capture tools in an instant.",
+  },
+  {
+    title: "Visual Feedback",
+    description:
+      "View a subtle toast notifications when actions are triggered.",
+  },
+  {
+    title: "Sound Feedback",
+    description:
+      "Optionally select a sound to be played when a corner/zone is activated.",
+  },
+  {
+    title: "Frequent Updates",
+    description: "New features and improvements are delivered regularly.",
+  },
+];
+
 function FeatureDisplay() {
   return (
     <section className="bg-[#FFF] py-24 pb-16" id="features">
@@ -62,6 +122,19 @@ function FeatureDisplay() {
             </div>
           </div>
         ))}
+
+        <h2 className="tracking-tight font-bold mt-20 text-center text-3xl lg:text-5xl lg:leading-[3.5rem]">
+          There's more
+        </h2>
+
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          {moreFeatures.map(({ title, description }) => (
+            <div key={title} className="p-6 border rounded-lg shadow-sm">
+              <h4 className="font-semibold text-lg mb-2">{title}</h4>
+              <p className="text-gray-600 text-sm">{description}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
