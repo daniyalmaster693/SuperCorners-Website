@@ -38,6 +38,11 @@ function Footer() {
                 </Link>
               </li>
               <li className="text-sm font-normal text-gray-800">
+                <Link href="https://github.com/daniyalmaster693/SuperCorners/releases/download/1.3.0/SuperCorners.zip">
+                  Download
+                </Link>
+              </li>
+              <li className="text-sm font-normal text-gray-800">
                 <Link href="https://github.com/daniyalmaster693/SuperCorners">
                   Github
                 </Link>
