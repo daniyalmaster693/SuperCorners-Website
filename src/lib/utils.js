@@ -15,8 +15,8 @@ export const formatPrice = (price) => {
 };
 
 export function constructMetadata({
-  title = "SuperCorners",
-  description = "Supercharge your Mac's Corners ",
+  title = "SuperCorners - Supercharge your Mac's Corners",
+  description = "Supercharge your Mac's Corners",
   image = "/openGraph.png",
   icons = "/icon.png",
 } = {}) {
