@@ -38,10 +38,14 @@ function Footer() {
                 </Link>
               </li>
               <li className="text-sm font-normal text-gray-800">
-                <Link href="/">Privacy Policy</Link>
+                <Link href="https://github.com/daniyalmaster693/SuperCorners">
+                  Github
+                </Link>
               </li>
               <li className="text-sm font-normal text-gray-800">
-                <Link href="/">Terms of Service</Link>
+                <Link href="mailto:daniyalmaster693@gmail.com">
+                  Get in Touch
+                </Link>
               </li>
             </ul>
           </div>
