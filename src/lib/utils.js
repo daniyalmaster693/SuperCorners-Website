@@ -18,7 +18,7 @@ export function constructMetadata({
   title = "SuperCorners - Supercharge your Mac's Corners",
   description = "Supercharge your Mac's Corners",
   image = "/openGraph.png",
-  icons = "/icon.png",
+  icons = "/icon_256x256.png",
 } = {}) {
   return {
     title,
