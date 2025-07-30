@@ -8,9 +8,9 @@ function Footer() {
         <div className="max-w-[16rem] flex flex-col space-y-1 items-center justify-center md:items-start md:justify-normal">
           <div className="flex items-center gap-1 -ml-1">
             <img
-              src="/logos/icon.png"
-              alt="Reddit logo"
-              className="w-12 h-12"
+              src="/logos/icon_256x256.png"
+              alt="SuperCorners logo"
+              className="w-10 h-10"
             />
             <Link href="/" className="text-med font-medium text-black">
               SuperCorners

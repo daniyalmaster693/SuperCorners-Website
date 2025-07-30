@@ -10,8 +10,8 @@ function Navbar() {
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center gap-2">
               <img
-                src="/logos/icon.png"
-                alt="Reddit logo"
+                src="/logos/icon_256x256.png"
+                alt="SuperCorners logo"
                 className="w-10 h-10"
               />
               <Link href="/" className="text-med font-semibold text-black">
