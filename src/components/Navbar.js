@@ -30,7 +30,7 @@ function Navbar() {
                 FAQ
               </Link>
               <Link
-                href="https://github.com/daniyalmaster693/SuperCorners/releases/download/1.3.0/SuperCorners.zip"
+                href="https://github.com/daniyalmaster693/SuperCorners/releases/download/1.3.1/SuperCorners.zip"
                 className="text-sm font-normal text-gray-800"
               >
                 Download
