@@ -110,7 +110,7 @@ function FeatureDisplay() {
             <img
               src={feature.imgSrc}
               alt={feature.title}
-              className={`w-[460px] h-[320px] rounded-[2rem] flex-shrink-0 ${
+              className={`w-[500px] h-[315px] rounded-[1.75rem] flex-shrink-0 ${
                 i % 2 === 1 ? "order-1 xl:order-2" : ""
               }`}
             />

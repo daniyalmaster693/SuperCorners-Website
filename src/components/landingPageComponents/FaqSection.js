@@ -44,8 +44,20 @@ function FaqSection() {
     },
     {
       question: "How can I report bugs or suggest features?",
-      answer:
-        "Open an issue or discussion on the GitHub repo: https://github.com/daniyalmaster693/SuperCorners",
+      answer: (
+        <>
+          Open an issue or discussion on the GitHub repo{" "}
+          <a
+            href="https://github.com/daniyalmaster693/SuperCorners"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800"
+          >
+            here
+          </a>
+          .
+        </>
+      ),
     },
   ];
 
