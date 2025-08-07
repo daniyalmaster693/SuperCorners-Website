@@ -17,12 +17,12 @@ function HeroSection() {
               </h1>
 
               <video
-                src="https://dropover.s3.eu-central-1.amazonaws.com/videos/ventura/dropover_intro.mp4"
+                src="/screen recordings/SuperCorners Demo.mp4"
                 autoPlay
                 muted
                 loop
                 playsInline
-                className="mt-10 mb-3 rounded-[2.5rem] max-w-full w-[480px] lg:w-[720px] mx-auto"
+                className="mt-10 mb-3 rounded-[2.5rem] max-w-full w-[530px] lg:w-[800px] mx-auto"
               />
 
               <div className="flex flex-col items-center text-center">

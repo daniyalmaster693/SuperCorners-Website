@@ -3,31 +3,31 @@ const features = [
     title: "Additional Zones",
     description:
       "Go beyond the default corners and trigger actions when moving your mouse the middle of any screen edge for even greater control.",
-    imgSrc: "https://dropoverapp.com/assets/images/tile-power-users.jpg",
+    vidSrc: "/screen recordings/SuperCorners Zone Demo.mp4",
   },
   {
     title: "Launch Apps and Websites",
     description:
       "Open your favorite apps and websites instantly with a simple flick to a corner or zone. It’s never been easier to get your workspace up and running.",
-    imgSrc: "https://dropoverapp.com/assets/images/tile-upload.jpg",
+    vidSrc: "/screen recordings/SuperCorners Apps Demo.mp4",
   },
   {
     title: "Run Shortcuts",
     description:
       "Unleash the power of Apple Shortcuts from any zone. Automate routines, control settings, and streamline tasks effortlessly.",
-    imgSrc: "https://dropoverapp.com/assets/images/settings.jpg",
+    vidSrc: "/screen recordings/SuperCorners Shortcuts Demo.mp4",
   },
   {
     title: "Access System Commands",
     description:
       "Trigger useful system commands such as Toggle Dark Mode, Keep Awake, or even create a new file with a quick flick to stay focused without digging through menus.",
-    imgSrc: "https://dropoverapp.com/assets/images/tile-instant-actions.jpg",
+    vidSrc: "/screen recordings/SuperCorners System Demo.mp4",
   },
   {
     title: "Built in Tools",
     description:
       "Useful tools are right at your finger tips. Open a counter, a floating note window, a powerful natural language calculator, a color picker, text extractor and more instantly.",
-    imgSrc: "https://dropoverapp.com/assets/images/tile-upload.jpg",
+    vidSrc: "/screen recordings/SuperCorners Tools Demo.mp4",
   },
 ];
 
@@ -107,13 +107,18 @@ function FeatureDisplay() {
             key={feature.title}
             className={`grid grid-cols-1 xl:grid-cols-2 gap-12 items-center`}
           >
-            <img
-              src={feature.imgSrc}
-              alt={feature.title}
-              className={`w-[500px] h-[315px] rounded-[1.75rem] flex-shrink-0 ${
+            <div
+              className={`w-[500px] h-[315px] rounded-[1.75rem] overflow-hidden flex-shrink-0 ${
                 i % 2 === 1 ? "order-1 xl:order-2" : ""
               }`}
-            />
+            >
+              <video
+                src={feature.vidSrc}
+                alt={feature.title}
+                controls
+                className="w-full h-full object-cover"
+              />
+            </div>
             <div
               className={`flex-1 max-w-2xl ${
                 i % 2 === 1 ? "order-2 xl:order-1" : ""
