@@ -27,7 +27,7 @@ function HeroSection() {
 
               <div className="flex flex-col items-center text-center">
                 <Link
-                  href="https://github.com/daniyalmaster693/SuperCorners/releases/download/1.3.0/SuperCorners.zip"
+                  href="https://github.com/daniyalmaster693/SuperCorners/releases/download/1.3.1/SuperCorners.zip"
                   className={cn(
                     buttonVariants({ size: "lg" }),
                     "flex items-center justify-center mt-8 group rounded-[8px] px-6 py-1"
